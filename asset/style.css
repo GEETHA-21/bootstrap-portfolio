@@ -1,49 +1,98 @@
-
-  .bg{
-    background:url(./images/800px_COLOURBOX4762216.jpg) no-repeat;
-    width:100%;
-    height:100vh;
-background-size: 200%;
+.bg {
+  background: url(./images/800px_COLOURBOX4762216.jpg) no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: 200%;
 }
 
-  .form-container{
-    position: absolute;
-    top:15vh;
-    background: #fff;
-    padding:30px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px #000;
-
-  }
-
-  .bg1{
-    background:url(./images/blosomflower.jpg) no-repeat;
-    width:100%;
-    height:100vh;
-background-size: 200%;
+.bg-img {
+  background: url(../asset/images/back.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 500px;
 }
 
-.bg2{
-  background:url(./images/snow.png) no-repeat;
-  width:150%;
-  height:100vh;
-background-size: 200%;
+.form-container {
+  position: absolute;
+  top: 15vh;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #000;
 }
 
-@media only screen and(max-width:678px){
-  .bg{
+.bg1 {
+  background: url(./images/blosomflower.jpg) no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: 200%;
+}
+
+.bg2 {
+  background: url(./images/snow.png) no-repeat;
+  width: 150%;
+  height: 100vh;
+  background-size: 200%;
+}
+
+#About span {
+  padding: 10px 20px 10px 20px;
+}
+
+#About hr {
+  border-width: 3px;
+  margin-top: 06px;
+}
+
+#Skills span {
+  padding: 10px 20px 10px 20px;
+}
+
+#Skills hr {
+  border-width: 3px;
+  margin-top: 06px;
+}
+
+#Experience span {
+  padding: 10px 20px 10px 20px;
+}
+
+#Experience hr {
+  border-width: 2px;
+  margin-top: 06px;
+}
+
+Experience .card {
+  border-top: 03px solid red;
+}
+
+#Contact span {
+  padding: 10px 20px 10px 20px;
+}
+
+#Contact hr {
+  border-width: 2px;
+  margin-top: 06px;
+}
+
+.navbar {
+  background-color: rgb(172, 115, 155);
+  border-color: rgb(53, 50, 52);
+}
+@media only screen and(max-width:678px) {
+  .bg {
     background-size: 300%;
   }
 }
 
-@media only screen and(max-width:678px){
-  .bg1{
+@media only screen and(max-width:678px) {
+  .bg1 {
     background-size: 300%;
   }
 }
 
-@media only screen and(max-width:678px){
-  .bg2{
+@media only screen and(max-width:678px) {
+  .bg2 {
     background-size: 300%;
   }
 }

@@ -9,36 +9,38 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-<section class="container-fluid bg">
+<section class="container-fluid bg-img">
     
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand text-warning" href="#">Geetha Nagarajan</a>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-danger">
+                <a class="navbar-brand text-light" href="#">Portfolio</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
               
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link text-danger" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-danger" href="contact.html">Contact</a>
-                    </li>
-                    
+                      <li class="nav-item "><a href="#About-Me"class="nav-link text-light">About Me</a></li>
+                      <li class="nav-item"><a href="#Skills"class="nav-link text-light">Skills</a></li>
+                      <li class="nav-item"><a href="#Experience"class="nav-link text-light">Experience</a></li>  
+                
+                      <li class="nav-item"><a href="#Contact"class="nav-link text-light">Contact</a></li>
                   </ul>
                   
         
                 </div>
               </nav>
+            </div>
+
+            <div id="bg-img">
 
               <div id="About">
                 <div class="container">
                   <div class="row">
                     <div class="col">
                       <div id="AboutData">
+                        
                         <div class="card bg-white">
-                          <div class= "card-title">
+                          <div class= "card-title my-5">
                             <div class="media">
                               <img src="asset/images/geetha.jpg"width="250" height="250" class="img-fluid rounded-top mx-5">
                               <div class="media-body">
@@ -71,20 +73,134 @@
 
                           </div>
                           <div class="card-footer bg-danger">
-                            
+                            <a href="#"><i class="fa fa-github fa-2x mx-3"></i></a>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-    
+              
+
+                <div id="About-Me" class="container mt-5">
+      <div class="row">
+        <div class="col">
+          <span class="bg-danger text-white">About Me</span><hr class="bg-danger">
+          <p>“My name is Geetha Nagarajan, I got my Bacherlors In Computer SCience Engeering and I’m an innovative software engineer with 4 plus years of experience managing all aspects of the development process for small to medium-sized companies.”</p>
+        </div>
+      </div>
+    </div>
         
-    </div>
     
     
+    <div id="Skills" class="mt-5">
+      <div class ="container">
+        <span class="bg-primary text-white">MySkills</span><hr class="bg-primary">
+        <div class="row">
+          <div class="col">
+            <div class="card bg-white">
+
+              <h3 class="ml-3 my-3" >HTML Language</h3>
+              <div class="progress mx-3">
+                <div class="progress-bar" style="width:95%">95%</div>
+                </div>
+
+                <h3 class="ml-3 my-3" >CSS3 Language</h3>
+              <div class="progress mx-3">
+                <div class="progress-bar" style="width:95%">85%</div>
+                </div>
+
+                <h3 class="ml-3 my-3" >JavaScript Programming</h3>
+              <div class="progress mx-3">
+                <div class="progress-bar" style="width:95%">90%</div>
+                </div>
+
+                <h3 class="ml-3 my-3" >SDLC</h3>
+              <div class="progress mx-3">
+                <div class="progress-bar" style="width:95%">95%</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    
+
+
+    <div id="Experience">
+      <div class="container mt-5">
+          <span class="bg-success text-white">Experience</span><hr class="bg-success">
+          <div class="row">
+
+            <div class="col-lg-6">
+              <div class="card bg-white">
+                <img src="../bootstrap-portfolio/asset/images/indian1.jpg" width="200" height="80" class="img-fluid m-auto py-3">
+                <h3 class="text-center text-danger">"Network Engineer"</h3>
+                <p class="lead text-justify p-3">Responsible for maximizing sales and profits through the development of a quality sales organization and appropriate merchandise content within an area of the store. </p>
+                </div>
+               </div>
+
+               <div class="col-lg-6">
+                  <div class="card bg-white">
+                    <img src="../bootstrap-portfolio/asset/images/macys1.jpg" width="200" height="80" class="img-fluid m-auto py-3">
+                    <h3 class="text-center text-danger">"Sales Lead "</h3>
+                    <br>
+                    <p class="lead text-justify p-3">Responsible for maximizing sales and profits through the development of a quality sales organization and appropriate merchandise content within an area of the store. </p>
+                    <br>
+                    </div>
+                   </div>
+    </div>
+
+
+    <div id="Contact">
+      <div class="container mt-5">
+        <span class="bg-dark text-white">Contact Me</span><hr class="bg-dark">
+        <div class="row">
+          <div class="col">
+            <div class="card bg-white">
+              <div class="card-header">
+                <h4 class="my-4">Contact Me On Below</h4>
+            
+              <div class="form-group ">
+                <input type="text" placeholder="User Name" class="form-control">
+                
+              </div>
+              <div class="form-group">
+                  <input type="text" placeholder="Email" class="form-control">
+                  
+                </div>
+
+                <div class="form-group">
+                     <textarea  class="form-control" placeholder="Write something here ......."></textarea>
+                    
+                  </div>
+
+                  <div class="form-group">
+                      <button  class="btn btn-success text-white">Submit Now</button>
+                     
+                   </div>
+
+</div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-dark">
+      <div class="row">
+        <div class="col">
+          <p class="text-white py-3">Website Designed by:Geetha Nagarajan</p>
+        </div>
+      </div>
+    </div>
+
+</div>
+
 </section>    
     </section>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
